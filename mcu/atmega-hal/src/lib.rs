@@ -122,7 +122,7 @@ pub use eeprom::Eeprom;
 
 pub struct Atmega;
 
-#[cfg(any(feature = "atmega48p", feature = "atmega168", feature = "atmega328p"))]
+#[cfg(any(feature = "atmega48p", feature = "atmega168", feature = "atmega328p", feature = "atmega328" ))]
 #[macro_export]
 macro_rules! pins {
     ($p:expr) => {
