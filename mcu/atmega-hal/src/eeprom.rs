@@ -26,6 +26,7 @@ avr_hal_generic::impl_eeprom_atmega! {
 }
 
 #[cfg(any(
+    feature = "atmega328",
     feature = "atmega328pb",
     feature = "atmega328p",
     feature = "atmega32u4"

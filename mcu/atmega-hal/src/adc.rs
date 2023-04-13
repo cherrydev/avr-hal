@@ -73,6 +73,7 @@ pub mod channel {
     #[cfg(all(
         any(
             feature = "atmega168",
+            feature = "atmega328",
             feature = "atmega328p",
             feature = "atmega328pb",
             feature = "atmega48p",
@@ -85,6 +86,7 @@ pub mod channel {
     #[cfg(all(
         any(
             feature = "atmega168",
+            feature = "atmega328",
             feature = "atmega328p",
             feature = "atmega328pb",
             feature = "atmega48p",
@@ -98,6 +100,7 @@ pub mod channel {
         feature = "atmega1280",
         feature = "atmega168",
         feature = "atmega2560",
+        feature = "atmega328",
         feature = "atmega328p",
         feature = "atmega328pb",
         feature = "atmega32u4",
@@ -110,6 +113,7 @@ pub mod channel {
         feature = "atmega1280",
         feature = "atmega168",
         feature = "atmega2560",
+        feature = "atmega328",
         feature = "atmega328p",
         feature = "atmega328pb",
         feature = "atmega32u4",
@@ -119,6 +123,7 @@ pub mod channel {
     ))]
     pub struct Gnd;
     #[cfg(any(
+        feature = "atmega328",
         feature = "atmega328p",
         feature = "atmega328pb",
         feature = "atmega32u4",
@@ -129,6 +134,7 @@ pub mod channel {
 
 #[cfg(any(
     feature = "atmega168",
+    feature = "atmega328",
     feature = "atmega328p",
     feature = "atmega328pb",
     feature = "atmega48p",
