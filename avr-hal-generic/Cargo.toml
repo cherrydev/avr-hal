@@ -12,6 +12,9 @@ paste = "1.0.0"
 avr-device = "0.5.1"
 embedded-storage = "0.2"
 
+[dependencies.avr-device]
+git = "https://github.com/cherrydev/avr-device"
+
 [dependencies.embedded-hal]
 version = "0.2.3"
 features = ["unproven"]
