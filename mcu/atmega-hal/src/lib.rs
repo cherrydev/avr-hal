@@ -51,6 +51,9 @@ pub use avr_device::atmega168 as pac;
 /// Reexport of `atmega2560` from `avr-device`
 #[cfg(feature = "atmega2560")]
 pub use avr_device::atmega2560 as pac;
+/// Reexport of `atmega328` from `avr-device`
+#[cfg(feature = "atmega328")]
+pub use avr_device::atmega328 as pac;
 /// Reexport of `atmega328p` from `avr-device`
 #[cfg(feature = "atmega328p")]
 pub use avr_device::atmega328p as pac;
